@@ -1,4 +1,9 @@
 <?php
+    session_start();
+    if(isset($_SESSION['Username'])){
+        header('Location: dashboard.php');
+    }
+
     include "connect.php"; 
     include "../includes/templates/header.php";
     include "../includes/languages/english.php";
@@ -12,7 +17,15 @@
 
         // check if the user is in the database
 
-        // I stopped hereeeeeeeeeeeeeee
+        $stmt = $con->prepare('SELECT Username, Password from users WHERE Username = ? AND Password = ?');
+        $stmt->execute(array($username, $password));
+        $count = $stmt->rowCount();
+
+        if($count > 0){
+            $_SESSION['Username'] = $username;
+            header('Location: dashboard.php');
+            exit();
+        }
 
     }
 
