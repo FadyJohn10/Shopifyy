@@ -20,3 +20,15 @@ body{
     font-size: 13px;
     padding: 7px 13px;
 }
+
+/**************** start edit page */
+.edit-page-title{
+    margin-top: 50px;
+}
+.edit-form-control{
+    margin-bottom: 15px;
+    width: 50%;
+}
+.edit-sbmt-btn{
+    width: 10%;
+}

@@ -4,9 +4,13 @@
 
         static $lang = array(
 
-            'message' => 'welcome',
+            'home' => 'Home',
 
-            'admin' => 'admin'
+            'feats' => 'Features',
+            
+            'items' => 'Items',
+
+            'logout' => 'Log out'
 
         );
 
