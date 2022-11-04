@@ -16,15 +16,15 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Pricing</a>
-        <a class="nav-link" href="members.php">Members</a>
+      <div class="navbar-nav m-auto">
+        <a class="nav-link" href="#">Summer Collection</a>
+        <a class="nav-link" href="#">Winter Collection</a>
+        <a class="nav-link" href="#">New Arrivals</a>
+        <a class="nav-link" href="#">Accessories</a>
       </div>
-      <div class="navbar-nav ms-auto">
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Pricing</a>
-        <a class="nav-link" href="members.php">Members</a>
+      <div class="navbar-nav ml-auto">
+        <a class="nav-link" href="#">Sign Up</a>
+        <a class="nav-link" href="#">Login</a>
       </div>
       
     </div>
@@ -32,27 +32,37 @@
   </div>
 </nav>
 
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+<ol class="carousel-indicators">
+    <li data-target="#carouselExampleFade" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleFade" data-slide-to="1"></li>
+    <li data-target="#carouselExampleFade" data-slide-to="2"></li>
+  </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="layout/images/slider1.jpg" alt="First slide">
+      <img class="d-block w-100" src="layout/images/slider2.jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+      <h5>New <span>limited</span> edition</h5>
+        <p>Sale | free shipping</p>
+      </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="layout/images/slider2.jpg" alt="Second slide">
+      <img class="d-block w-100" src="layout/images/slider1.jpg" alt="Second slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>50% <span>off</span></h5>
+        <p>on new summer collection</p>
+      </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="..." alt="Third slide">
+      <img class="d-block w-100" src="layout/images/slider30.jpg" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5><span>new</span> arrivals</h5>
+        <p>we've got the season covered</p>
+      </div>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>
+
 
 <?php
 include "includes/templates/footer.php";

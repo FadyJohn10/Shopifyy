@@ -4,7 +4,7 @@
 
         static $lang = array(
 
-            'home' => 'Home',
+            'home' => 'Shopify <span>me</span>',
 
             'feats' => 'Features',
             

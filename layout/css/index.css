@@ -1,0 +1,48 @@
+.navbar{
+    background-color: #000 !important;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-family: fantasy;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar-brand span{
+    color: #ffff33;
+}
+
+.nav-link{margin: 0 10px;}
+
+.carousel-item {
+    height: 92vh !important;
+}
+
+img.d-block.w-100 {
+    margin-top: -75px;
+    margin-right: -50px;
+    filter: brightness(0.7);
+}
+
+.carousel-caption{
+    right: 90% !important;
+    bottom: 35% !important;
+    text-transform: uppercase;
+    font-family: fantasy;
+    width: 35%;
+}
+
+.carousel-caption h5 {
+    font-size:  65px;
+    letter-spacing: 2px;
+}
+
+.carousel-caption h5 span{
+    color: #ffff33;
+}
+
+.carousel-caption p {
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
