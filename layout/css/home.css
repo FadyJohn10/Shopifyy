@@ -1,34 +1,95 @@
-
-body{
-    background: #eee;
+.navbar{
+    background-color: #000 !important;
 }
 
-.login{
-    margin: 250px auto;
-    width: 300px;
+.navbar-brand{
+    font-size: 29px;
+    font-family: fantasy;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar-brand span{
+    color: #ffff33;
+}
+
+.nav-link{margin: 0 7px;}
+
+.carousel-item {
+    height: 92vh !important;
+}
+
+img.d-block.w-100 {
+    margin-top: -75px;
+    margin-right: -50px;
+    filter: brightness(0.7);
+}
+
+.carousel-caption{
+    left: 10% !important;
+    bottom: 35% !important;
+    text-transform: uppercase;
+    font-family: fantasy;
+    width: 35%;
+}
+
+.carousel-caption h5 {
+    font-size:  65px;
+    letter-spacing: 2px;
+}
+
+.carousel-caption h5 span{
+    color: #ffff33;
+}
+
+.carousel-caption p {
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.promo {
+    background: #000;
+    color: #eee;
+    padding: 22px;
+    margin: 20px 0;
+}
+
+.promo h3 {
+    font-size: 26px;
+}
+
+.promo h3 span{
+    color: #ffff33;
+}
+
+.cats .container-fluid{
+    padding: 0 !important;
+}
+.cats .container-fluid .row{
+    margin-right: 0 !important;
+}
+
+.cat{
+    padding: 5px !important;
     text-align: center;
 }
-.login input{
-    width: 300px;
-    margin-top: 8px;
-}
-.input-control{
-    display: block;
-    border: 1px solid #ccc;
-    background: rgb(228, 228, 228);
-    border-radius: 7px;
-    font-size: 13px;
-    padding: 7px 13px;
+
+.cats .img-fluid{
+    height: 500px !important;
 }
 
-/**************** start edit page */
-.edit-page-title{
-    margin-top: 50px;
+.cats .btn{
+    width: 320px !important;
+    border: 1px solid #eee;
+    font-weight: 700;
+    font-family: revert;
+    position: relative;
+    top: -50px;
+    background: #fff;
+    transition: 0.3s ease-in-out;
+    text-transform: uppercase;
 }
-.edit-form-control{
-    margin-bottom: 15px;
-    width: 50%;
-}
-.edit-sbmt-btn{
-    width: 10%;
+
+.cats .btn:hover{
+    background: #eee;
 }

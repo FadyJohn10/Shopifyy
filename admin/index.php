@@ -43,6 +43,3 @@
     <input type="password" name="password" placeholder="password" class="input-control">
     <input type="submit" value="login" class="btn btn-primary">
 </form>
-
-
-<?php include "../includes/templates/footer.php";?>

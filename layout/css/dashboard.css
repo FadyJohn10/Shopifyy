@@ -1,0 +1,34 @@
+
+body{
+    background: #eee;
+}
+
+.login{
+    margin: 250px auto;
+    width: 300px;
+    text-align: center;
+}
+.login input{
+    width: 300px;
+    margin-top: 8px;
+}
+.input-control{
+    display: block;
+    border: 1px solid #ccc;
+    background: rgb(228, 228, 228);
+    border-radius: 7px;
+    font-size: 13px;
+    padding: 7px 13px;
+}
+
+/**************** start edit page */
+.edit-page-title{
+    margin-top: 50px;
+}
+.edit-form-control{
+    margin-bottom: 15px;
+    width: 50%;
+}
+.edit-sbmt-btn{
+    width: 10%;
+}
